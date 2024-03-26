@@ -1,0 +1,369 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "created": "2024-03-26T12:46:15Z",
+        "creators": [
+            "Tool: GitHub.com-Dependency-Graph"
+        ],
+        "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included."
+    },
+    "name": "com.github.heya-naohiro/mqtt-server",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+        "SPDXRef-com.github.heya-naohiro-mqtt-server"
+    ],
+    "documentNamespace": "https://github.com/heya-naohiro/mqtt-server/dependency_graph/sbom-b967db888be18206",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "name": "com.github.heya-naohiro/mqtt-server",
+            "versionInfo": "",
+            "downloadLocation": "git+https://github.com/heya-naohiro/mqtt-server",
+            "licenseDeclared": "MIT",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:github/heya-naohiro/mqtt-server"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-rust-assert-cmd",
+            "name": "rust:assert_cmd",
+            "versionInfo": ">= 2.0.0,< 3.0.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-rust-async-channel",
+            "name": "rust:async-channel",
+            "versionInfo": ">= 2.0.0,< 3.0.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-rust-bytes",
+            "name": "rust:bytes",
+            "versionInfo": ">= 1.0.0,< 2.0.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-rust-cdrs-tokio",
+            "name": "rust:cdrs-tokio",
+            "versionInfo": ">= 6.0.0,< 7.0.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-rust-chrono",
+            "name": "rust:chrono",
+            "versionInfo": ">= 0.4.34,< 0.5.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-rust-clap",
+            "name": "rust:clap",
+            "versionInfo": ">= 2.0.0,< 3.0.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-rust-futures",
+            "name": "rust:futures",
+            "versionInfo": ">= 0.3.30,< 0.4.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-rust-itertools",
+            "name": "rust:itertools",
+            "versionInfo": ">= 0.12.1,< 0.13.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-rust-paho-mqtt",
+            "name": "rust:paho-mqtt",
+            "versionInfo": ">= 0.12.3,< 0.13.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-rust-predicates",
+            "name": "rust:predicates",
+            "versionInfo": ">= 2.1.0,< 3.0.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-rust-prost",
+            "name": "rust:prost",
+            "versionInfo": ">= 0.12.0,< 0.13.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-rust-prost-build",
+            "name": "rust:prost-build",
+            "versionInfo": ">= 0.12.0,< 0.13.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-rust-rand",
+            "name": "rust:rand",
+            "versionInfo": ">= 0.8.0,< 0.9.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-rust-rustls",
+            "name": "rust:rustls",
+            "versionInfo": ">= 0.22.0,< 0.23.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-rust-rustls-pemfile",
+            "name": "rust:rustls-pemfile",
+            "versionInfo": ">= 2.0.0,< 3.0.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-rust-rustls-pki-types",
+            "name": "rust:rustls-pki-types",
+            "versionInfo": ">= 1.0.0,< 2.0.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-rust-tokio",
+            "name": "rust:tokio",
+            "versionInfo": ">= 1.0.0,< 2.0.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-rust-tokio-rustls",
+            "name": "rust:tokio-rustls",
+            "versionInfo": ">= 0.25.0,< 0.26.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-rust-tokio-stream",
+            "name": "rust:tokio-stream",
+            "versionInfo": ">= 0.1.0,< 0.2.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-rust-tokio-util",
+            "name": "rust:tokio-util",
+            "versionInfo": ">= 0.7.10,< 0.8.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-rust-tonic",
+            "name": "rust:tonic",
+            "versionInfo": ">= 0.11.0,< 0.12.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-rust-tonic-build",
+            "name": "rust:tonic-build",
+            "versionInfo": ">= 0.11.0,< 0.12.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-rust-tracing",
+            "name": "rust:tracing",
+            "versionInfo": ">= 0.1.0,< 0.2.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-rust-tracing-subscriber",
+            "name": "rust:tracing-subscriber",
+            "versionInfo": ">= 0.3.0,< 0.4.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-actions-actions-checkout-3.*.*",
+            "name": "actions:actions/checkout",
+            "versionInfo": "3.*.*",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "supplier": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:githubactions/actions/checkout@3.%2A.%2A",
+                    "referenceType": "purl"
+                }
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-rust-assert-cmd"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-rust-async-channel"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-rust-bytes"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-rust-cdrs-tokio"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-rust-chrono"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-rust-clap"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-rust-futures"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-rust-itertools"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-rust-paho-mqtt"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-rust-predicates"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-rust-prost"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-rust-prost-build"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-rust-rand"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-rust-rustls"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-rust-rustls-pemfile"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-rust-rustls-pki-types"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-rust-tokio"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-rust-tokio-rustls"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-rust-tokio-stream"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-rust-tokio-util"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-rust-tonic"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-rust-tonic-build"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-rust-tracing"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-rust-tracing-subscriber"
+        },
+        {
+            "relationshipType": "DEPENDS_ON",
+            "spdxElementId": "SPDXRef-com.github.heya-naohiro-mqtt-server",
+            "relatedSpdxElement": "SPDXRef-actions-actions-checkout-3.*.*"
+        }
+    ]
+}
